@@ -4,10 +4,10 @@ let IngredientDiv = document.querySelectorAll(".IngredientDiv")[0];
 // let trashCan = document.querySelector("a.delete");
 
 addIngredientsBtn.addEventListener("click", function(){
-    let newIngredient = IngredientDiv.cloneNode(true);
-    let input = newIngredient.getElementsByTagName("input")[0];
-    input.value= "";
-    IngredientList.appendChild(newIngredient);
+    let newIngredients = IngredientDiv.cloneNode(true);
+    let input = newIngredients.getElementsByTagName("input")[0];
+    input.value= '';
+    IngredientList.appendChild(newIngredients);
 });
 
 
